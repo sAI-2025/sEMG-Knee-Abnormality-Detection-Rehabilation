@@ -147,22 +147,22 @@ sEMG-Knee-Abnormality-Detection/
 
 ---
 
-## 📘 Research Highlights
+##   Research Highlights
 
-### 🔬 Core Contributions
+###   Core Contributions
 - Developed a **hybrid deep learning model** combining CNN + Transformer + Capsule architectures.
 - Designed a **custom dataset pipeline** for biomedical signal processing.
 - Conducted extensive **literature review and model benchmarking**.
 - Validated across subjects for **real-world generalization**.
 
-### 📈 Applications
+###   Applications
 - **Rehabilitation Monitoring** – Track patient recovery using EMG activity.
 - **Prosthetic Leg Control** – Decode intent and improve robotic limb precision.
 - **Human-Robot Interaction** – Enable natural control through neuromuscular signals.
 
 ---
 
-## 🧪 Key Learnings
+##   Key Learnings
 
 - Handling noisy **biomedical data** and ensuring proper normalization.
 - Balancing **model depth vs. overfitting** in limited-subject datasets.
@@ -171,7 +171,7 @@ sEMG-Knee-Abnormality-Detection/
 
 ---
 
-## 🧭 Future Work
+##   Future Work
 
 - Expand dataset with more subjects and real-time EMG recording.  
 - Integrate IMU (Inertial Measurement Unit) data for gait fusion.  
@@ -180,7 +180,7 @@ sEMG-Knee-Abnormality-Detection/
 
 ---
 
-## 📚 References
+##   References
 
 Key research papers reviewed:
 1. *Capsule Network for 1-D Biomedical Signals: A Review* (Elsevier, 2023)  
@@ -192,27 +192,27 @@ All papers included under `/papers` and `/original_paper/`.
 
 ---
 
-## 🧑‍💻 Author
+##   Author
 
 **Sai Krishna Chowdary Chundru**  
 🎓 B.Tech in Electronics and Communication Engineering — IIIT Nuzvid  
 📍 India  
 
-📧 **Email:** [cchsaikrishnachowdary@gmail.com](mailto:cchsaikrishnachowdary@gmail.com)  
-🔗 **LinkedIn:** [linkedin.com/in/sai-krishna-chowdary-chundru](https://www.linkedin.com/in/sai-krishna-chowdary-chundru)  
-💻 **GitHub:** [github.com/sAI-2025](https://github.com/sAI-2025)  
-📰 **Medium:** [medium.com/@sai2025](https://medium.com/@sai2025)
+  **Email:** [cchsaikrishnachowdary@gmail.com](mailto:cchsaikrishnachowdary@gmail.com)  
+  **LinkedIn:** [linkedin.com/in/sai-krishna-chowdary-chundru](https://www.linkedin.com/in/sai-krishna-chowdary-chundru)  
+  **GitHub:** [github.com/sAI-2025](https://github.com/sAI-2025)  
+  **Medium:** [medium.com/@sai2025](https://medium.com/@sai2025)
 
 ---
 
-## 🧩 Acknowledgments
+##   Acknowledgments
 
 Special thanks to my research mentors and teammates for their guidance in data acquisition, model experimentation, and validation.  
 Grateful to open-access research platforms for enabling knowledge sharing in biomedical AI.
 
 ---
 
-## 🪄 How to Run
+##   How to Run
 
 1. Clone this repository  
    ```bash
@@ -236,7 +236,7 @@ Grateful to open-access research platforms for enabling knowledge sharing in bio
 
 ---
 
-## 💡 Quote
+##   Quote
 
 > “Signals from muscles are stories of motion — decoding them bridges biology and robotics.”
 > — *Sai Krishna Chowdary Chundru*
