@@ -1,6 +1,5 @@
  
-
-```markdown
+ 
 # 🦵 sEMG-Knee-Abnormality-Detection
 
 ### **Detecting Knee Abnormalities and Human Activities using Convolutional Transformer Capsule Networks**
@@ -219,23 +218,4 @@ Grateful to open-access research platforms for enabling knowledge sharing in bio
 
 ⭐ **If this project inspires you, please give it a star — it helps support open biomedical AI research!**
 
-````
-
----
-
-✅ **Now you can:**
-1. Copy this entire Markdown into your `README.md` file.  
-2. Save it in your project folder.  
-3. Then run these Git commands to push everything:
-
-```bash
-cd "C:/Users/chskc/Desktop/push"
-git add README.md
-git commit -m "Added professional README with research details"
-git push origin main
-````
-
----
-
-Would you like me to also create a **requirements.txt** (Python library dependencies) for this project — based on typical deep learning + EMG workflow (NumPy, Pandas, PyTorch/TensorFlow, etc.)?
-That will make it even more complete for GitHub and reproducibility.
+  
