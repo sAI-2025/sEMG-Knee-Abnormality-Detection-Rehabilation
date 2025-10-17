@@ -1,0 +1,31 @@
+# Core Libraries
+numpy==1.24.4
+pandas==2.0.3
+matplotlib==3.7.2
+scikit-learn==1.3.0
+scipy==1.11.2
+
+# Deep Learning Framework (Choose one: TensorFlow OR PyTorch)
+tensorflow==2.13.0
+# torch==2.0.1
+# torchvision==0.15.2
+
+# Notebook & Visualization
+jupyter==1.0.0
+seaborn==0.12.2
+plotly==5.16.1
+
+# Signal Processing
+wfdb==4.1.2
+pywt==1.4.1  # For wavelet transforms (optional)
+
+# Utilities
+tqdm==4.66.1
+ipykernel==6.25.2
+notebook==7.0.4
+
+# Capsule Network (custom layers may require this if using Keras-based implementation)
+keras==2.13.1
+
+# Optional: For transformers (if not using TensorFlow's built-in attention)
+transformers==4.33.3
