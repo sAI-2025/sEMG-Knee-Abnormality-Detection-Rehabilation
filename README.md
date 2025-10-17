@@ -64,9 +64,9 @@ This work bridges **deep learning**, **biomedical signal processing**, and **ass
 
 ---
 
-## ⚙️ Technical Implementation
+##   Technical Implementation
 
-### 🧾 **Model Architecture**
+###   **Model Architecture**
 - **Input:** 1-D sEMG time-series data
 - **Processing:**
   - Convolutional layers → extract local spatial patterns.
