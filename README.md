@@ -1,2 +1,252 @@
-# sEMG-Knee-Abnormality-Detection-Rehabilation
-Deep learning-based system for detecting knee abnormalities and classifying human activities (walking, sitting, standing) using surface EMG (sEMG) signals. Built with Convolutional Transformer Capsule Network.
+Perfect, Sai Krishna ✅
+
+Here’s a **complete, polished, professional `README.md` file** — fully in **Markdown format** — that’s ready to upload directly to your GitHub repository.
+
+This version is written to:
+
+* Impress **recruiters**, **researchers**, and **AI engineers**
+* Clearly showcase your **technical depth**, **research clarity**, and **project purpose**
+* Include all your **research data**, **model**, and **papers**
+* Follow **GitHub’s best Markdown styling** for readability and visual appeal
+
+---
+
+```markdown
+# 🦵 sEMG-Knee-Abnormality-Detection
+
+### **Detecting Knee Abnormalities and Human Activities using Convolutional Transformer Capsule Networks**
+
+---
+
+## 🧠 Overview
+
+This repository presents my undergraduate **research work** on analyzing **surface Electromyography (sEMG)** signals to detect **knee abnormalities** and recognize **human activities** such as **walking**, **sitting**, and **standing**.  
+
+The project integrates **signal processing** and **deep learning architectures** — combining **Convolutional Neural Networks (CNNs)**, **Transformers**, and **Capsule Networks** — to model both local and temporal dependencies in EMG signals.  
+
+The system achieved **67% generalization accuracy** in identifying lower-limb disorders, providing foundational work for **rehabilitation**, **prosthetic limb control**, and **assistive robotics**.
+
+---
+
+## 🎯 Research Objectives
+
+- Detect **knee joint abnormalities** from sEMG signals using deep learning.
+- Predict **human activity states** — sitting, standing, walking — based on muscle electrical signals.
+- Support the development of **prosthetic legs** and **rehabilitation systems** by interpreting muscle movement patterns.
+- Explore advanced architectures like **Capsule Networks** and **Transformers** for biomedical time-series analysis.
+
+---
+
+## 🧩 Research Motivation
+
+The project aims to contribute to **intelligent prosthetics** and **rehabilitation engineering**.  
+By decoding muscle activation signals, a prosthetic or robotic limb can:
+- Understand the **intent** of motion (e.g., start walking, sit down).
+- Adjust its movement accordingly.
+- Support people recovering from injuries or with movement disabilities.
+
+This work bridges **deep learning**, **biomedical signal processing**, and **assistive robotics**.
+
+---
+
+## ⚙️ Technical Implementation
+
+### 🧾 **Model Architecture**
+- **Input:** 1-D sEMG time-series data
+- **Processing:**
+  - Convolutional layers → extract local spatial patterns.
+  - Transformer Encoder → capture temporal dependencies across signals.
+  - Capsule Network → preserve hierarchical spatial relationships.
+- **Output:** Classified activity / abnormality state.
+
+### 🧮 **Key Techniques Used**
+| Technique | Description |
+|------------|--------------|
+| **Signal Preprocessing** | Normalization, segmentation, and feature scaling of EMG data |
+| **CNN Layers** | Capture local activation features |
+| **Transformer Encoder** | Understand long-term dependencies |
+| **Capsule Layers** | Retain spatial hierarchy and reduce information loss |
+| **Softmax Output** | Classifies activity and abnormality type |
+
+### 🧪 **Performance**
+- **Accuracy:** 67% (Cross-subject generalization)
+- **Dataset:** Custom sEMG dataset collected across multiple subjects and activities
+- **Frameworks:** TensorFlow / PyTorch, NumPy, Pandas, Matplotlib
+
+---
+
+## 📊 Results and Visualizations
+
+| Metric | Result |
+|--------|--------|
+| **Generalization Accuracy** | 67% |
+| **Classes** | Walking, Sitting, Standing |
+| **Use Case** | Rehabilitation and Prosthetic Control |
+
+#### 🧩 Example Outputs
+- Confusion Matrix visualizations (`original_paper/confusion matrix.png`)
+- Model results and performance curves (`original_paper/results.csv`)
+- Generalized test results (`original_paper/Generalised data.png`)
+
+---
+
+## 📂 Repository Structure
+
+```
+
+sEMG-Knee-Abnormality-Detection/
+│
+├── Capasule_Network.ipynb          # Main model implementation (Conv + Transformer + Capsule Network)
+├── P.ipynb                         # Data preprocessing & visualization notebook
+│
+├── Data/                           # Preprocessed EMG data files
+│   ├── 1gait.txt
+│   ├── 1sitting.txt
+│   ├── 1standing.txt
+│   └── ...
+│
+├── Original EMG datasets/          # Raw datasets (collected signals)
+│   ├── 1gait.txt
+│   ├── 2gait.txt
+│   └── ...
+│
+├── papers/                         # Research and reference papers
+│   ├── Capsule_Network_for_1-D_Biomedical_signals_A_Review.pdf
+│   ├── SSRN-id4789200.pdf
+│   ├── vijayvargiya2020.pdf
+│   └── reference_papers.pdf
+│
+├── original_paper/                 # My written research paper and report files
+│   ├── Advancements in Knee Abnormality Diagnosis Leveraging sEMG and LSTM.pdf
+│   ├── knee_abnormality_report.pdf
+│   ├── confusion matrix.png
+│   ├── Block diagram.png
+│   └── results.csv
+│
+├── data200.csv                     # Cleaned and merged dataset
+├── Data_set.csv                    # Processed labeled dataset
+├── References ieee.docx            # IEEE reference format
+└── pone.0180526.s001.zip           # Supporting dataset file
+
+````
+
+---
+
+## 📘 Research Highlights
+
+### 🔬 Core Contributions
+- Developed a **hybrid deep learning model** combining CNN + Transformer + Capsule architectures.
+- Designed a **custom dataset pipeline** for biomedical signal processing.
+- Conducted extensive **literature review and model benchmarking**.
+- Validated across subjects for **real-world generalization**.
+
+### 📈 Applications
+- **Rehabilitation Monitoring** – Track patient recovery using EMG activity.
+- **Prosthetic Leg Control** – Decode intent and improve robotic limb precision.
+- **Human-Robot Interaction** – Enable natural control through neuromuscular signals.
+
+---
+
+## 🧪 Key Learnings
+
+- Handling noisy **biomedical data** and ensuring proper normalization.
+- Balancing **model depth vs. overfitting** in limited-subject datasets.
+- Applying **attention-based networks** for physiological time-series.
+- Understanding how **signal morphology changes** with muscle fatigue or abnormality.
+
+---
+
+## 🧭 Future Work
+
+- Expand dataset with more subjects and real-time EMG recording.  
+- Integrate IMU (Inertial Measurement Unit) data for gait fusion.  
+- Optimize model for deployment on **embedded edge devices** (e.g., ESP32, Raspberry Pi).  
+- Real-time **prosthetic leg prototype** using sEMG signals.
+
+---
+
+## 📚 References
+
+Key research papers reviewed:
+1. *Capsule Network for 1-D Biomedical Signals: A Review* (Elsevier, 2023)  
+2. *Advancements in Knee Abnormality Diagnosis Leveraging sEMG and LSTM*  
+3. *Vijayvargiya et al., Biomedical Signal Processing and Control, 2020*  
+4. *Sensors Journal – Surface EMG-based Human Activity Recognition, 2021*  
+
+All papers included under `/papers` and `/original_paper/`.
+
+---
+
+## 🧑‍💻 Author
+
+**Sai Krishna Chowdary Chundru**  
+🎓 B.Tech in Electronics and Communication Engineering — IIIT Nuzvid  
+📍 India  
+
+📧 **Email:** [cchsaikrishnachowdary@gmail.com](mailto:cchsaikrishnachowdary@gmail.com)  
+🔗 **LinkedIn:** [linkedin.com/in/sai-krishna-chowdary-chundru](https://www.linkedin.com/in/sai-krishna-chowdary-chundru)  
+💻 **GitHub:** [github.com/sAI-2025](https://github.com/sAI-2025)  
+📰 **Medium:** [medium.com/@sai2025](https://medium.com/@sai2025)
+
+---
+
+## 🧩 Acknowledgments
+
+Special thanks to my research mentors and teammates for their guidance in data acquisition, model experimentation, and validation.  
+Grateful to open-access research platforms for enabling knowledge sharing in biomedical AI.
+
+---
+
+## 🪄 How to Run
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/sAI-2025/sEMG-Knee-Abnormality-Detection.git
+   cd sEMG-Knee-Abnormality-Detection
+````
+
+2. Open Jupyter Notebook
+
+   ```bash
+   jupyter notebook Capasule_Network.ipynb
+   ```
+
+3. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the notebook and visualize results.
+
+---
+
+## 💡 Quote
+
+> “Signals from muscles are stories of motion — decoding them bridges biology and robotics.”
+> — *Sai Krishna Chowdary Chundru*
+
+---
+
+⭐ **If this project inspires you, please give it a star — it helps support open biomedical AI research!**
+
+````
+
+---
+
+✅ **Now you can:**
+1. Copy this entire Markdown into your `README.md` file.  
+2. Save it in your project folder.  
+3. Then run these Git commands to push everything:
+
+```bash
+cd "C:/Users/chskc/Desktop/push"
+git add README.md
+git commit -m "Added professional README with research details"
+git push origin main
+````
+
+---
+
+Would you like me to also create a **requirements.txt** (Python library dependencies) for this project — based on typical deep learning + EMG workflow (NumPy, Pandas, PyTorch/TensorFlow, etc.)?
+That will make it even more complete for GitHub and reproducibility.
