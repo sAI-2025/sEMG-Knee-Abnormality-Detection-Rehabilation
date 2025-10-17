@@ -5,8 +5,35 @@
 ### **Detecting Knee Abnormalities and Human Activities using Convolutional Transformer Capsule Networks**
 
  
+<!-- Badges -->
+<p align="center">
+  <!-- Programming Language -->
+  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" alt="Python 3.11"/>
+  
+  <!-- Frameworks -->
+  <img src="https://img.shields.io/badge/TensorFlow-ML-orange?logo=tensorflow" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/PyTorch-DL-red?logo=pytorch" alt="PyTorch"/>
 
-## 🧠 Overview
+  <!-- Model Types -->
+  <img src="https://img.shields.io/badge/CNN%20%2B%20Transformer%20%2B%20CapsNet-Hybrid%20Model-purple?logo=deepin" alt="CNN Transformer Capsule Network"/>
+  
+  <!-- Signal Type -->
+  <img src="https://img.shields.io/badge/sEMG-Biomedical%20Signals-lightgrey?logo=heartbeat" alt="sEMG Signals"/>
+
+  <!-- Application Domains -->
+  <img src="https://img.shields.io/badge/Rehabilitation-Use%20Case-success?logo=mediatemple" alt="Rehabilitation Use Case"/>
+  <img src="https://img.shields.io/badge/Prosthetics-Control-yellow?logo=android" alt="Prosthetics Control"/>
+
+  <!-- UI / Deployment -->
+  <img src="https://img.shields.io/badge/Notebook-Jupyter-orange?logo=jupyter" alt="Jupyter Notebook"/>
+  <img src="https://img.shields.io/badge/Deployment-Local%20%7C%20Offline-informational?logo=raspberrypi" alt="Offline Deployment"/>
+
+  <!-- Project Meta -->
+  <img src="https://img.shields.io/badge/License-MIT-green?logo=opensourceinitiative" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/Status-Beta-orange?logo=github" alt="Beta Status"/>
+</p>
+
+##   Overview
 
 This repository presents my undergraduate **research work** on analyzing **surface Electromyography (sEMG)** signals to detect **knee abnormalities** and recognize **human activities** such as **walking**, **sitting**, and **standing**.  
 
@@ -16,7 +43,7 @@ The system achieved **67% generalization accuracy** in identifying lower-limb di
 
 ---
 
-## 🎯 Research Objectives
+##   Research Objectives
 
 - Detect **knee joint abnormalities** from sEMG signals using deep learning.
 - Predict **human activity states** — sitting, standing, walking — based on muscle electrical signals.
@@ -25,7 +52,7 @@ The system achieved **67% generalization accuracy** in identifying lower-limb di
 
 ---
 
-## 🧩 Research Motivation
+##   Research Motivation
 
 The project aims to contribute to **intelligent prosthetics** and **rehabilitation engineering**.  
 By decoding muscle activation signals, a prosthetic or robotic limb can:
@@ -47,7 +74,7 @@ This work bridges **deep learning**, **biomedical signal processing**, and **ass
   - Capsule Network → preserve hierarchical spatial relationships.
 - **Output:** Classified activity / abnormality state.
 
-### 🧮 **Key Techniques Used**
+###   **Key Techniques Used**
 | Technique | Description |
 |------------|--------------|
 | **Signal Preprocessing** | Normalization, segmentation, and feature scaling of EMG data |
@@ -63,15 +90,15 @@ This work bridges **deep learning**, **biomedical signal processing**, and **ass
 
 ---
 
-## 📊 Results and Visualizations
-
+##   Results and Visualizations
+ 
 | Metric | Result |
 |--------|--------|
 | **Generalization Accuracy** | 67% |
 | **Classes** | Walking, Sitting, Standing |
 | **Use Case** | Rehabilitation and Prosthetic Control |
 
-#### 🧩 Example Outputs
+####   Example Outputs
 - Confusion Matrix visualizations (`original_paper/confusion matrix.png`)
 - Model results and performance curves (`original_paper/results.csv`)
 - Generalized test results (`original_paper/Generalised data.png`)
