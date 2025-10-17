@@ -1,10 +1,10 @@
  
  
-# 🦵 sEMG-Knee-Abnormality-Detection
+#   sEMG-Knee-Abnormality-Detection
 
 ### **Detecting Knee Abnormalities and Human Activities using Convolutional Transformer Capsule Networks**
 
----
+ 
 
 ## 🧠 Overview
 
